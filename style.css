@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: darkgreen;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    z-index: 1000;
+}
+
+nav.navbar li a {
+    display: block;
+    color: lightgoldenrodyellow;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.navbar li a:hover {
+    background: red;
+    color: navy;
+}
+
+nav.navbar li a.active {
+    background: greenyellow;
+    color: black;
+}
+
+.wadah-utama {
+    margin-top: 60px;
+}
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(88, 86, 86, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: navy !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: lightskyblue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

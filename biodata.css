@@ -1,0 +1,41 @@
+body {
+    background-color: lightskyblue;
+    font-family: Arial, sans-serif;
+    color: darkblue;
+}
+
+.wadah-utama {
+    text-align: center;
+}
+
+.judul h1 {
+    color: lightslategray;
+}
+
+.kartu-biodata {
+    background-color: yellow;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    border-style: solid;
+    border-color: #a47dab;
+    border-radius: 15px;
+}
+
+.kartu-biodata h2 {
+    background-color: #000000;
+    color: yellow;
+}
+
+.bungkus-foto img {
+    width: 120px;
+    height: 120px;
+    border-style: solid;
+    border-color: #a47dab;
+    border-radius: 50%;
+}
+
+.informasi-diri {
+    text-align: left;
+    font-size: 14px;
+}
